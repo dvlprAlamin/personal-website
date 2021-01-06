@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    padding: 0px 80px;
+    height: 600px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    color: #3E3E3E;
+    line-height: 25px;
+    font-size: 16px;
+}
+.text-highlight{
+    color: #FF8367;
+}
+.menu{
+    text-align: right;
+    margin: 40px 100px 100px 0px;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+.banner .link-button, .about .link-button{
+    margin-top: 50px;
+}
+.link-button a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.link-button a img{
+    width: 16px;
+    margin-right: 5px;
+}
+#hire-me{
+    background-image: linear-gradient(90deg, #FB6555, #F69B73);
+}
+#download-cv{
+    background-image: linear-gradient(90deg,#24C1E1, #418AFE);
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin: 0% 4%;
+}
+.half-width img{
+    width: 100%;
+}
+.project h2{
+    text-align: center;
+    margin-top: 150px;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.507);
+    border-radius: 20px;
+    height: 350px;
+}
+.one-third-width img {
+    width: 100%;
+}
+.work-inquiry{
+    background-image: url(images/work-inquiry.png);
+    margin: 80px 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 220px;
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center; */
+}
+.work-inquiry .link-button{
+    padding-top: 90px;
+    text-align:right;
+}
+.work-inquiry .link-button a{
+    background-image: linear-gradient(90deg, #FB6555, #F69B73);
+}
+.work-inquiry h2{
+    color: #ffffff;
+    float: left;
+    margin-top: 70px;
+}
+.services{
+    text-align: center;
+    margin-top: 200px;
+}
+.services .one-third-width img{
+    width: 140px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.social-icon{
+    list-style: none;
+    padding: 0;
+}
+.social-icon li{
+    display: inline;
+}
+.social-icon li a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.social-icon li a img{
+    width: 40px;
+}
+footer h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    font-weight: 500;
+}
+.email{
+    font-weight: 700;
+    font-size: 36px;
+}
